@@ -12,3 +12,17 @@ fermer.addEventListener("click",()=>
 {
     menu.classList.remove("open");
 })
+
+
+// let cpt =1;
+
+// setInterval(function(){
+
+//     document.getElementById("radio" +cpt).checked=true;
+//     cpt++;
+//     if(cpt>3)
+//     {
+//         cpt=1;
+
+//     }
+// })
