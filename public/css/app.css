@@ -12396,6 +12396,7 @@ nav .connexion .btn_nav {
     margin-right: 0px;
     display: flex;
     margin-top: 260px;
+    margin-bottom: 260px;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -12495,6 +12496,7 @@ nav .connexion .btn_nav {
     margin-right: 0px;
     display: flex;
     margin-top: 260px;
+    margin-bottom: 260px;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -12593,7 +12595,8 @@ nav .connexion .btn_nav {
     margin-left: 0px;
     margin-right: 0px;
     display: flex;
-    margin-top: 460px;
+    margin-top: 440px;
+    margin-bottom: 440px;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -12691,6 +12694,7 @@ nav .connexion .btn_nav {
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 60px;
+    margin-bottom: 50px;
   }
   .section2 .para2 {
     display: flex;
@@ -12767,6 +12771,443 @@ nav .connexion .btn_nav {
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 100px;
+  }
+}
+.section3 {
+  max-width: 100vw;
+  height: 70vh;
+  background-color: #eeeeee;
+}
+.section3 .cartes {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 20px;
+  width: 100vw;
+}
+.section3 .cartes .carterouge {
+  height: 480px;
+  background-color: #cc1111;
+  color: white;
+  font-size: 19px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.section3 .cartes .carterouge .btn {
+  width: 200px;
+  height: 100px;
+}
+.section3 .cartes .carterouge .btn .btn_learn {
+  border-radius: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  background-color: #dc5859;
+  color: white;
+  border: none;
+}
+.section3 .cartes .carterouge .btn :hover {
+  background-color: white;
+  color: #cc1111;
+}
+.section3 .cartes .all .carte1 {
+  width: 290px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  font-size: 18px;
+}
+.section3 .cartes .all .carte1 .cercle {
+  border-radius: 60px;
+  background-color: rgba(220, 88, 88, 0.2666666667);
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section3 .cartes .all .carte1 .cercle .fa-envelope {
+  font-size: 46px;
+  color: #cc1111;
+}
+.section3 .cartes .all :hover {
+  transform: scale(1.1);
+  font-size: normal;
+}
+.section3 .cartes .all .carte2 {
+  width: 290px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  font-size: 18px;
+}
+.section3 .cartes .all .carte2 .cercle {
+  border-radius: 60px;
+  background-color: rgba(220, 88, 88, 0.2666666667);
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section3 .cartes .all .carte2 .cercle .fa-gem {
+  font-size: 46px;
+  color: #cc1111;
+}
+.section3 .cartes .all .carte3 {
+  width: 290px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  font-size: 18px;
+}
+.section3 .cartes .all .carte3 .cercle {
+  border-radius: 60px;
+  background-color: rgba(220, 88, 88, 0.2666666667);
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section3 .cartes .all .carte3 .cercle .fa-clipboard {
+  font-size: 46px;
+  color: #cc1111;
+}
+
+@media screen and (min-width: 766px) and (max-width: 1024px) {
+  .section3 {
+    max-width: 100vw;
+    height: 200vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 90px;
+  }
+  .section3 .cartes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 0px;
+  }
+  .section3 .cartes .carterouge {
+    height: 280px;
+    background-color: #cc1111;
+    color: white;
+    font-size: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+  .section3 .cartes .carterouge .btn {
+    width: 200px;
+    height: 100px;
+  }
+  .section3 .cartes .carterouge .btn .btn_learn {
+    border-radius: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    background-color: #dc5859;
+    color: white;
+    border: none;
+  }
+  .section3 .cartes .carterouge .btn :hover {
+    background-color: white;
+    color: #cc1111;
+  }
+  .section3 .cartes .all .carte1 {
+    width: 650px;
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    font-size: 18px;
+    gap: 17px;
+    margin-top: 10px;
+    margin-bottom: 70px;
+  }
+  .section3 .cartes .all .carte1 .cercle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+  }
+  .section3 .cartes .all .carte1 .cercle .fa-envelope {
+    height: 13vh;
+    font-size: 34px;
+    color: #cc1111;
+    border-radius: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .section3 .cartes .all :hover {
+    transform: scale(1.1);
+    font-size: normal;
+  }
+  .section3 .cartes .all .carte2 {
+    width: 650px;
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    font-size: 18px;
+    gap: 17px;
+    margin-top: -20px;
+    margin-bottom: 70px;
+  }
+  .section3 .cartes .all .carte2 .cercle {
+    border-radius: 60px;
+    background-color: rgba(220, 88, 88, 0.2666666667);
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+  }
+  .section3 .cartes .all .carte2 .cercle .fa-gem {
+    height: 13vh;
+    font-size: 46px;
+    color: #cc1111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .section3 .cartes .all :hover {
+    transform: scale(1.1);
+    font-size: normal;
+  }
+  .section3 .cartes .all .carte3 {
+    width: 650px;
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    font-size: 18px;
+    gap: 17px;
+    margin-top: -20px;
+    margin-bottom: 70px;
+  }
+  .section3 .cartes .all .carte3 .cercle {
+    border-radius: 60px;
+    background-color: rgba(220, 88, 88, 0.2666666667);
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+  }
+  .section3 .cartes .all .carte3 .cercle .fa-clipboard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 13vh;
+    font-size: 46px;
+    color: #cc1111;
+  }
+  .section3 .cartes .all :hover {
+    transform: scale(1.1);
+    font-size: normal;
+  }
+}
+@media screen and (min-width: 374px) and (max-width: 426px) {
+  .section3 {
+    max-width: 100vw;
+    height: 280vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 90px;
+  }
+  .section3 .cartes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: -10px;
+  }
+  .section3 .cartes .carterouge {
+    width: 360px;
+    height: 380px;
+    background-color: #cc1111;
+    color: white;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+  .section3 .cartes .carterouge .btn {
+    width: 200px;
+    height: 100px;
+  }
+  .section3 .cartes .carterouge .btn .btn_learn {
+    border-radius: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    background-color: #dc5859;
+    color: white;
+    border: none;
+  }
+  .section3 .cartes .carterouge .btn :hover {
+    background-color: white;
+    color: #cc1111;
+  }
+  .section3 .cartes .all .carte1 {
+    width: 360px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    font-size: 14px;
+    gap: 7px;
+    margin-top: -10px;
+    margin-bottom: 70px;
+    padding-bottom: 20px;
+    padding-top: 70px;
+  }
+  .section3 .cartes .all .carte1 .cercle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+  }
+  .section3 .cartes .all .carte1 .cercle .fa-envelope {
+    font-size: 34px;
+    color: #cc1111;
+    border-radius: 60px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .section3 .cartes .all .carte1 h5, .section3 .cartes .all .carte1 .h5 {
+    font-size: 17px;
+  }
+  .section3 .cartes .all :hover {
+    transform: scale(1.1);
+    font-size: normal;
+  }
+  .section3 .cartes .all .carte2 {
+    width: 360px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    font-size: 14px;
+    gap: 7px;
+    margin-top: -50px;
+    margin-bottom: 70px;
+    padding-bottom: 20px;
+    padding-top: 70px;
+  }
+  .section3 .cartes .all .carte2 .cercle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+  }
+  .section3 .cartes .all .carte2 .cercle .fa-gem {
+    font-size: 34px;
+    color: #cc1111;
+    border-radius: 60px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .section3 .cartes .all .carte2 h5, .section3 .cartes .all .carte2 .h5 {
+    font-size: 17px;
+  }
+  .section3 .cartes .all :hover {
+    transform: scale(1.1);
+    font-size: normal;
+  }
+  .section3 .cartes .all .carte3 {
+    width: 360px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    font-size: 14px;
+    gap: 7px;
+    margin-top: -50px;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+  .section3 .cartes .all .carte3 .cercle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+  }
+  .section3 .cartes .all .carte3 .cercle .fa-clipboard {
+    font-size: 34px;
+    color: #cc1111;
+    border-radius: 60px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .section3 .cartes .all :hover {
+    transform: scale(1.1);
+    font-size: normal;
+  }
+  .section3 h5, .section3 .h5 {
+    font-size: 17px;
   }
 }
 
