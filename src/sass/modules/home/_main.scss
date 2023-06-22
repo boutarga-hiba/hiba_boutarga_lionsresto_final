@@ -1425,5 +1425,111 @@
         font-size: 17px;
     }
     }
+}
 
+// * section 4
+
+
+.section-4{
+    width: 100%;
+    height: 90vh;
+    text-align: center;
+    background-image: url(../img/stats-bg.jpg);
+    background-color: rgba(26, 25, 25, 0.596);
+    background-blend-mode: darken;
+    background-position: center;
+    background-attachment: fixed;
+
+    .client{
+        height: 45vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        color: white;
+        p{
+            font-size: 45px;
+            font-weight: bolder;
+        }
+        h6{
+            color: #a6a4a4;
+            // b{
+            //     font-size: 22px;
+            // }
+        }
+        .client-1{
+            width: 32%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            // .clt{
+            //     display: flex;
+            //     justify-content: center;
+            //     align-items: center;
+            //     flex-direction: column;
+            // }
+        }
+    }
+    .div-blanc{
+        height: 45vh;
+        width: 100%;
+    }
+}
+//* tablet section 4 
+@media (max-width:769px){
+    .section-4{
+        height: 66vh;
+        background-size: 120%;
+        background-repeat: no-repeat;
+        background-attachment:local;
+        .client{
+            display: block;
+            justify-content: space-between;
+            align-items: center;
+            height:66vh ;
+            width: 75%;
+            padding: 80px;
+            margin-left: 77px;
+            .client-1{
+                width: 100%;
+                margin: auto;
+                margin-bottom: 30px;
+                .clt{
+                    margin-top: 20px;
+                    text-align: center;
+                    p{
+                        font-size: 40px;
+                    }
+                }
+            }
+        }
+    }
+    .div-blanc{
+        height: 0vh;
+    }
+}
+//& mobil 4 
+@media (min-width:375px) and (max-width:426px){
+    .section-4{
+        height: 140vh;
+        background-size: 360%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment:local;
+        .client{
+            padding: 75px;
+            margin: auto;
+            .client-1{
+                .clt{
+                    margin-bottom: 67px;
+                    p{
+                        font-size: 35px;
+                        margin: 0;
+                    }
+                }
+            }
+        }
+        .div-blanc{
+            height: 0vh;
+        }
+    }
 }
