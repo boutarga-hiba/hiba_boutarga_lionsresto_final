@@ -3591,3 +3591,20 @@
      
 //     }
 // }
+
+// * icone flecher 
+
+.up{
+    position: fixed;
+    bottom: 30px;
+    right: -80px;
+    transition: 0.3s;
+    i{
+        font-size: 45px;
+        cursor: pointer;
+    }
+    }
+    .up.show{
+        right: 10px;
+        z-index: 10;
+    }

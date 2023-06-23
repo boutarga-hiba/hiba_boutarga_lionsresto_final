@@ -140,3 +140,20 @@ icone_y.addEventListener("click",()=>
 //   div1.classList.add("connecter")
 
 // })
+
+
+let up = document.querySelector(".up")
+window.onscroll = function () {
+    if (this.scrollY >= 500) {
+        up.classList.add("show")
+    } else {
+        up.classList.remove("show")
+
+    }
+}
+up.addEventListener("click", () => {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth",
+    });
+})

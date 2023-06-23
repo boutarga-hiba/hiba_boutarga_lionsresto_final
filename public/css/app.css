@@ -15181,5 +15181,20 @@ nav .connexion .btn_nav {
     display: block;
   }
 }
+.up {
+  position: fixed;
+  bottom: 30px;
+  right: -80px;
+  transition: 0.3s;
+}
+.up i {
+  font-size: 45px;
+  cursor: pointer;
+}
+
+.up.show {
+  right: 10px;
+  z-index: 10;
+}
 
 /*# sourceMappingURL=app.css.map */
