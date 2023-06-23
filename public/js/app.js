@@ -94,9 +94,49 @@ const closeVideo=()=>
 contenu.classList.remove("show");
 }
 
+
 let watchvideo= document.querySelector("#watchvideo");
 let contenu =document.querySelector(".video_f");
 let ferme = document.querySelector(".btn-close-vd");
 watchvideo.addEventListener("click",openVideo)
 ferme.addEventListener("click",closeVideo)
 
+
+
+let icone_y = document.querySelector("#btn");
+// icone_y.addEventListener("click",openVideo)
+icone_y.addEventListener("click",()=>
+{
+  contenu.classList.add("show");
+})
+
+
+
+// icone_y.addEventListener("click",()=>
+// {
+//   contenu.classList.remove("show");
+// })
+
+
+// * recuperer btn connexion 
+
+// let connexion = document.querySelector(".btn_nav");
+// console.log(connexion);
+// let section = document.querySelector(".section1");
+// connexion.addEventListener("click",()=>
+// {
+
+//   let div = document.createElement("div");
+//   div.setAttribute("class","connecter");
+
+//   let div1= document.createElement("div");
+//   div1.setAttribute("class","mini");
+
+//   div1.innerHTML=`<p>ahhahahahha</p>`
+//   section.appendChild(div);
+//   div.appendChild(div1)
+//   console.log("ha");
+
+//   div1.classList.add("connecter")
+
+// })

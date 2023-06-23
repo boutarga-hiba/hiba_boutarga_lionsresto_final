@@ -3497,12 +3497,6 @@
 }
 
 
-
-
-
-
-
-
 .video_f
 {
     position: fixed;
@@ -3539,3 +3533,61 @@
 {
     display: block;
 }
+
+@media (min-width:375px) and (max-width:426px)
+{
+
+    .video_f
+{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: #1e1d20ea;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    display: none;
+
+    .btn-close-vd{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        color: white;
+        font-size: 46px;
+    }
+
+    .frame
+    {
+        z-index: 999;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 300px;
+        height: 300px;
+        
+    }
+}
+
+.video_f.show
+{
+    display: block;
+}
+}
+
+// *modal
+// .connecter{
+//     width: 100%;
+//     height: 100%;
+//     background-color: #201f24e6;
+//     position: fixed;
+//     .mini{
+//         width: 50vw;
+//         height: 50vh;
+//         background-color: wheat;
+//         transform: translate(-50%,-50%);
+//         margin: auto;
+//         position: absolute;
+     
+//     }
+// }
