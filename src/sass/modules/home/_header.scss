@@ -253,7 +253,7 @@ nav {
 
 
 
-@media (min-width:730px) and (max-width:1024px)
+@media (min-width:730px) and (max-width:1000px)
 {
 
 .icone{
@@ -414,3 +414,20 @@ nav{
     }
 }
 
+@media(min-width:1100px) and (max-width:1300px)
+{
+    nav{
+        
+        .connexion{
+            
+            
+            .btn_nav{
+                font-size: 17px;
+                right: 3px;
+                top: -40px;
+                width: 100px;
+                height: 30px;
+            }
+        }
+    }
+}
